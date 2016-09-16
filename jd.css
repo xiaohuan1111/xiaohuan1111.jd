@@ -276,6 +276,7 @@ ul{
 	width:100%;
 	height:40px;
 	margin-top: 10px;
+	margin-bottom: 30px;
 	padding:13px 0;
 	background-color:rgb(245,245,245);
 }
@@ -285,7 +286,7 @@ ul{
 	position: relative;
 	width:100%;
 	min-height:200px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .main-title{
@@ -296,9 +297,9 @@ ul{
 	float: left;
 	width: 308px;
 	line-height: 36px;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: normal;
-	color: rgb(89,89,89);
+	color: rgb(102,102,102);
 }
 .main-title a{
 	float:right;
@@ -349,7 +350,7 @@ ul{
 	position: relative;
 	width:1210px;
 	height:443px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 .lift-box{
 	position: relative;
@@ -508,6 +509,7 @@ ul{
 
 .lift-box3a{
 	float: left;
+	overflow: hidden;
 	width:85px;
 	height: 381px;
 	margin-top: 13px;
@@ -515,6 +517,7 @@ ul{
 }
 .lift-box3a li{
 	float: right;
+	overflow: hidden;
 	width:74px;
 	height:56px;
 	border-bottom: 1px dashed rgb(224, 224, 224);
@@ -527,39 +530,571 @@ ul{
 }
 .lift-box3b li{
 	float: left;
+	overflow: hidden;
 	width:74px;
 	height:56px;
 	border-bottom: 1px dashed rgb(224, 224, 224);
 }
 /*京东品质生活  lift end*/
+/*服装鞋包 cloth start*/
 #cloth{
 	position: relative;
-	width:100%;
-	min-height:200px;
-	border:1px solid green;
+	width:1210px;
+	height:670px;
+
 }
+.cloth-title{
+	width:100%;
+	height:36px;
+	border-bottom: 1px solid rgb(200, 22, 35);
+}
+.cloth-title h2{
+	float: left;
+	width:80px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 40px;
+	font-size: 20px;
+	color:rgb(51, 51, 51);
+}
+.cloth-title ul{
+	float: right;
+	width:618px;
+	height: 34px;
+	border-top: 1px solid rgb(237, 237, 237);
+	border-right: 1px solid rgb(237, 237, 237);
+	border-left: 1px solid rgb(237, 237, 237);
+	line-height: 34px;
+	margin-top:1px;
+	font-size:12px;
+	color:rgb(102, 102, 102)
+}
+.cloth-title li.cloth-li2{
+	float: left;
+	width:58px;
+	height:34px;
+	text-align: center;
+}
+.cloth-title li.cloth-li3{
+	float: left;
+	width:82px;
+	height:34px;
+	text-indent: center;
+}
+.cloth-title ul li a{
+	margin:0 10px;
+}
+.cloth-title span{
+	color:rgb(102, 102, 102);
+}
+.cloth-left{
+	position: relative;
+	float: left;
+	width: 330px;
+	height: 633px;
+
+}
+.cloth-lefttop{
+	position: relative;
+	width:330px;
+	height: 474px;
+}
+.cloth-leftul{
+	position: absolute;
+	margin-top: -221px;
+}
+.cloth-leftul1{
+	padding-left: 25px;
+	overflow: hidden;
+	width:305px;
+	height:92px;
+	background-color:rgba(255, 255, 255, 0.498039);
+}
+.cloth-leftul1 li{
+	padding:10px 0;
+	float: left;
+	width:100px;
+	height:26px;
+}
+.cloth-leftul2 ul{
+	width:330px;
+	height:128px;
+	border-bottom: 1px solid rgb(237, 237, 237);
+	background-color:rgba(255, 255, 255, 0.701961);
+
+}
+.cloth-leftul2 li{
+	width:135px;
+	height:96px;
+	padding-top:10px;
+	padding-left: 25px;
+	float: left;
+	font-size: 12px;
+	text-align: left;
+	list-style-position: outside;
+	color:rgb(102, 102, 102);
+
+}
+.cloth-leftul2 li a{
+	display: block;
+	float: left;
+	width:48px;
+	height: 24px;
+	line-height: 24px;
+	padding-right: 10px; 
+/*	color:rgb(153, 153, 153);*/
+}
+.cloth-leftbot{
+	width:330px;
+	height: 158px;
+}
+.cloth-leftbot img{
+	width:100%;
+}
+.cloth-right{
+	float: left;
+	width: 880px;
+	height: 633px;
+	background-color: rgb(245,245,245);
+
+}
+.cloth-righta{
+	position: relative;
+	float: left;
+	width:660px;
+	height: 633px;
+}
+.cloth-rightb{
+	float: left;
+	width:220px;
+	height: 633px;
+
+}
+.rightb1{
+	width:440px;
+	height: 158px;
+}
+.rightb2{
+	width:439px;
+	height: 315px;
+
+}
+.rightb3{
+	width:439px;
+	height: 157px;
+}
+.rightb4{
+	position: absolute;
+	top:0;
+	right:0;
+	width:219px;
+	height: 157px;
+	background-color: red;
+}
+.rightb5{
+	position: absolute;
+	top:157px;
+	right:0;
+	width:219px;
+	height: 157px;
+}
+.rightb6{
+	position: absolute;
+	bottom:157px;
+	right:0;
+	width:219px;
+	height: 157px;
+}
+
+.rightb7{
+	position: absolute;
+	bottom:0px;
+	right:0;
+	width:219px;
+	height: 157px;
+}
+.subads2 li{
+	width:120px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	border-left: 1px solid rgb(204, 204, 204);
+}
+
+.subads2 li.subads21{
+	border:0;
+}
+/*服装鞋包 end*/
+/*手机通讯phone start*/
 #phone{
 	position: relative;
-	width:100%;
-	min-height:200px;
-	border:1px solid green;
+	width:1210px;
+	height:511px;
 	margin-bottom: 10px;
 }
+.phone-title{
+	width:100%;
+	height:36px;
+	border-bottom: 1px solid rgb(200, 22, 35);
+}
+.phone-title h2{
+	float: left;
+	width:80px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 40px;
+	font-size: 20px;
+	color:rgb(51, 51, 51);
+}
+.phone-title ul{
+	float: right;
+	width:690px;
+	height: 34px;
+	border-top: 1px solid rgb(237, 237, 237);
+	border-right: 1px solid rgb(237, 237, 237);
+	border-left: 1px solid rgb(237, 237, 237);
+	line-height: 34px;
+	margin-top:1px;
+	font-size:12px;
+	color:rgb(102, 102, 102)
+}
+.phone-title li.cloth-li2{
+	float: left;
+	width:58px;
+	height:34px;
+	text-align: center;
+}
+.phone-title li.cloth-li3{
+	float: left;
+	width:82px;
+	height:34px;
+	text-indent: center;
+}
+
+.phone-title li.cloth-li4{
+	float: left;
+	width:70px;
+	height:34px;
+	text-indent: center;
+}
+.phone-title ul li a{
+	margin:0 10px;
+}
+.phone-title span{
+	color:rgb(102, 102, 102);
+}
+.phone-box{
+
+	width: 1210px;
+	height: 474px;
+
+}
+.phone-left{
+	position: relative;
+	float: left;
+	width:330px;
+	height: 474px;
+
+}
+.phone-left-pic{
+	position: absolute;
+	top:0;
+	left:0;
+	width:330px;
+	height: 474px;
+	z-index: -1;
+}
+.phone-left-ul{
+	position:absolute;
+	top:237px;
+}
+.phone-left-ul1{
+	
+	width: 305px;
+	height:46px;
+	padding-left: 25px;
+	background-color: rgba(255, 255, 255, 0.498039);
+	font-size: 14px;
+	line-height: 18px;
+
+}
+.phone-left ul li{
+	float: left;
+}
+
+ul.phone-left-ul1 li{
+	z-index: 2;
+	float: left;
+	width:98px;
+	height: 26px;
+	padding:10px 0;
+	line-height:18px;
+	color:rgb(102, 102, 102);
+}
+.phone-left-ul2{
+	width: 330px;
+	height:48px;
+	padding-top: 21px;
+	background-color: rgba(255, 255, 255, 0.701961);
+	font-size: 14px;
+	line-height: 24px;
+}
+.phone-left-ul2 li{
+	width:135px;
+	height: 24px;
+	padding-left: 25px;
+	line-height: 24px;
+}
+.phone-left-ul3{
+	width: 330px;
+	height:122px;
+	background-color: rgba(255, 255, 255, 0.701961);
+	color: rgb(102, 102, 102);
+	font-size: 12px;
+	line-height: 18px;
+}
+.phone-left-ul3 li{
+	width:135px;
+	height: 96px;
+	padding-top: 7px;
+	padding-left: 25px;
+	line-height: 24px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.phone-left-ul3 li a{
+	display: block;
+	float:left;
+	width:48px;
+	height: 24px;
+	line-height: 24px;
+	color:rgb(153, 153, 153);
+	margin-right: 10px;
+
+}
+.phone-left-ul3 li a.special{
+	color:rgb(200, 22, 35);
+}
+.phone-right{
+	float: right;
+	width:880px;
+	height:474px;
+
+}
+.phone-right1{
+	float: left;
+	width:660px;
+	height: 474px;
+}
+
+.phone-right1 ul{
+	width:660px;
+	height:474px;
+}
+.phone-right1 ul li{
+	float: left;
+	overflow: hidden;
+	border-right: 1px solid rgb(237, 237, 237);
+	border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+li.phone-right1-li1{
+	padding-left: 440px;
+}
+.phone-right2{
+	float:left;
+	width:220px;
+	height: 474px;
+
+}
+li.phone-right2li1{
+	width:220px;
+	height: 118px;
+	overflow: hidden;
+	border-right: 1px solid rgb(237, 237, 237);
+	border-bottom: 1px solid rgb(237, 237, 237);
+}
+li.phone-right2li2{
+	width:220px;
+	height: 237px;
+	overflow: hidden;
+	border-right: 1px solid rgb(237, 237, 237);
+	border-bottom: 1px solid rgb(237, 237, 237);
+
+}
+.phone-dong{
+	position:absolute;
+	top:38px;
+	left:330px;
+	width:1210px;
+	height:474px;
+}
+/*手机通讯 phone end*/
+/*天天低价 start*/
 #sale{
 	position: relative;
 	width:100%;
-	min-height:200px;
-	border:1px solid green;
+	height:339px;
 	margin-bottom: 10px;
 }
 
+.sale-left{
+	float: left;
+	width:900px;
+	height: 319px;
+	margin-bottom: 20px;
+
+}
+.sale-main{
+	width:900px;
+	height: 283px;
+	border-top:1px solid rgb(237, 237, 237);;
+	border-left:1px solid rgb(237, 237, 237);;
+}
+.sale-main ul li{
+	float: left;
+	border-right: 1px solid rgb(237, 237, 237);
+	border-bottom: 1px solid rgb(237, 237, 237);
+}
+.sale-main-li1{
+	width:219px;
+	height:245px;
+	overflow: hidden;
+	padding:18px 10px;
+}
+.salepic1{
+	width:219px;
+	height: 180px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.sale-info1{
+	float: right;
+	width:200px;
+	height:24px;
+
+}
+.sale-info1 a{
+	font-size: 12px;
+	line-height: 18px;
+	color:#666;
+}
+.sale-price{
+	margin-top: 6px;
+	text-align:left;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Verdana, 宋体;
+	color:rgb(225, 34, 40);
+}
+.sale-main-li2{
+	width:199px;
+	height:104px;
+	overflow: hidden;
+	padding:18px 10px;
+}
+.salepic2{
+	width:100px;
+	height: 100px;
+	float: left;
+}
+.sale-info2{
+	float: right;
+	width:94px;
+	height:65px;
+
+}
+.sale-info2 a{
+	font-size: 12px;
+	line-height: 18px;
+	color:#666;
+}
+.sale-right{
+	float: left;
+	width:310px;
+	height: 319px;
+
+}
+.sale-rightt{
+	width:310px;
+	height: 36px;
+}
+.sale-rightt h2{
+	float:left;
+	width: 80px;
+	line-height: 36px;
+	font-size: 20px;
+	font-weight: normal;
+	color: rgb(102,102,102);
+}
+.sale-rightc{
+	width:268px;
+	height: 226px;
+	border-top:1px solid rgb(237, 237, 237);
+	border-right:1px solid rgb(237, 237, 237);
+	border-bottom:1px solid rgb(237, 237, 237);
+	padding:35px 20px 20px 20px;
+}
+.sale-rightc li{
+	width: 266px;
+	height: 100px;
+	margin-bottom:20px;
+
+}
+.sarc-img{
+	float: left;
+	width:80px;
+	height: 80px;
+	padding:10px 0;
+}
+
+.sarc-info{
+	float: left;
+	width: 166px;
+	height: 87px;
+	padding-right: 20px;
+	margin-top: 3px;
+
+}
+.sarc-user{
+	width:166px;
+	height: 28px;
+	margin-bottom: 5px;
+
+}
+.sarc-user img{
+	float: left;
+	margin-right: 6px;
+}
+.sarc-user span{
+	display: block;
+	float: left;
+	line-height: 28px;
+	font-size: 12px;
+	color: rgb(102, 102, 102);
+
+}
+.sarc-mess{
+	width:130px;
+	height: 34px;
+	padding:10px 15px 10px 20px ;
+	background-color: rgb(248,248,248);
+
+}
+.sarc-mess a{
+	font-size: 12px;
+	line-height: 18px;
+}
+/*天天低价 end*/
 /*内容部分 main end*/ 
 
 
 /*底部内容 footer stare*/
 #footer{
 	position: relative;
-	width:100%;
+	width:1440px;
 	height:200px;
 	border:1px solid navy;
 }
