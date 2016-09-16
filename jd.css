@@ -425,7 +425,7 @@ ul{
 	float: left;
 	width:201px;
 	height: 158px;
-	background-color: red;
+
 }
 .lift-box1bb{
 	position:absolute;
@@ -689,7 +689,7 @@ ul{
 	right:0;
 	width:219px;
 	height: 157px;
-	background-color: red;
+
 }
 .rightb5{
 	position: absolute;
@@ -936,7 +936,7 @@ li.phone-right2li2{
 	position: relative;
 	width:100%;
 	height:339px;
-	margin-bottom: 10px;
+
 }
 
 .sale-left{
@@ -1094,8 +1094,51 @@ li.phone-right2li2{
 /*底部内容 footer stare*/
 #footer{
 	position: relative;
+	z-index: -1;
 	width:1440px;
-	height:200px;
-	border:1px solid navy;
+	min-height:200px;
+}
+.service-2014{
+	width: 1440px;
+	height: 276px;
+	margin-bottom: 20px;
+}
+.slogn{
+
+	width: 1325px;
+	height:54px;
+	padding:20px 0;
+	margin-bottom: 14px;
+	padding-left: 115px;
+	background-color: rgb(245, 245, 245);
+}
+.slogn img {
+	padding-right: 100px;
+}
+.foot-list1{
+	width: 1210px;
+	height: 128px;
+	margin:0 115px;
+
+}
+.foot-list1 dl{
+	width:199px;
+	height: 156px;
+	float: left;
+	color:rgb(102, 102, 102);
+}
+.foot-list1 dt a{
+	display: block;
+	width: 199px;
+	height: 24px;
+	font-size: 16px;
+	line-height: 24px;
+}
+.foot-list1 dd a{
+	display: block;
+	width:199px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 22px;
 }
 /*底部内容 footer end
