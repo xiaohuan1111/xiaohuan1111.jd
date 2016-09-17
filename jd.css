@@ -136,6 +136,7 @@ ul{
 /*左边按钮 start*/
 #left-btn{
 	position:fixed;
+	z-index: 3;
 	top:0;
 	right:0;
 	bottom:0;
@@ -1094,9 +1095,9 @@ li.phone-right2li2{
 /*底部内容 footer stare*/
 #footer{
 	position: relative;
-	z-index: -1;
 	width:1440px;
 	min-height:200px;
+
 }
 .service-2014{
 	width: 1440px;
@@ -1104,7 +1105,6 @@ li.phone-right2li2{
 	margin-bottom: 20px;
 }
 .slogn{
-
 	width: 1325px;
 	height:54px;
 	padding:20px 0;
@@ -1127,18 +1127,97 @@ li.phone-right2li2{
 	float: left;
 	color:rgb(102, 102, 102);
 }
+.foot-list1 dl.foot-list1-end{
+	width:100px;
+	height: 156px;
+	float: left;
+	color:rgb(102, 102, 102);
+}
 .foot-list1 dt a{
 	display: block;
-	width: 199px;
+	width: 100%;
 	height: 24px;
 	font-size: 16px;
 	line-height: 24px;
 }
 .foot-list1 dd a{
 	display: block;
-	width:199px;
+	width:100%;
 	height: 20px;
 	font-size: 12px;
 	line-height: 22px;
+}
+.cnmap{
+	float: left;
+	width:310px;
+	height: 168px;
+	background-image: url(http://misc.360buyimg.com/product/skin/2013/i/20130330B_1.png);
+	background-position: 700% 100%;
+}
+.cnmapt p{
+	display: block;
+	width: 190px;
+	height: 24px;
+	padding: 6px 40px 15px 80px;
+	font-size: 16px;
+	line-height: 24px;
+}
+.cnmapc p{
+	display: block;
+	width:190px;
+	height: 72px;
+	padding:0 40px 0px 80px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.cnmap p.cnmap-ar{
+	display: block;
+	text-align: right;
+	width:190px;
+	height: 18px;
+	font-size: 12px;
+	line-height: 18px;
+	padding-bottom: 15px;
+}
+.foot-list2{
+	width:1210px;
+	height: 195px;
+	margin:0 115px;
+}
+.foot-2014{
+	width:1210px
+	height:144px;
+	padding: 20px 0 30px 0;
+	border-top: 1px solid rgb(229, 229, 229);
+}
+.fl2-links{
+	display: block;
+	width: 1210px;
+	height: 18px;
+	text-align: center;
+	font-size: 12px;
+	color: rgb(102, 102, 102);
+	line-height: 18px;
+}
+.fl2-links a{
+	display: inline-block;
+	margin: 0 10px;
+}
+.fl2-copyright{
+	width:1210px;
+	height: 74px;
+	margin:10px 0;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+}
+.fl2-authen{
+	width:1210px;
+	height: 32px;
+	text-align: center;
+}
+.fl2-authen a{
+	display: inline-block;
+	margin: 0 5px;
 }
 /*底部内容 footer end
